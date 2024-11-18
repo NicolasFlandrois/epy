@@ -17,6 +17,7 @@ epy = "epy_reader.__main__:main"
 [tool.poetry.dependencies]
 python = "^3.8"
 windows-curses = { version = "*", markers = "platform_system == 'Windows'" }
+standard-imghdr = "^3.13.0"
 
 [tool.poetry.dev-dependencies]
 pynvim = "^0.4.3"
